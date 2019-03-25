@@ -1,0 +1,6 @@
+<p
+  [ngStyle]="{'background-color':getColor()}"
+  [ngClass]="{online: serverStatus === 'online'}"
+>
+    The Server Component {{serverId}} {{serverStatus}} {{getServerStatus()}}
+</p>
